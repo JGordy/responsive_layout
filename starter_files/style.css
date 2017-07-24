@@ -80,3 +80,51 @@ header{
 #main_nav a:hover{
     background: #ddddff;
 }
+#main_content {
+  background-color: #ddffff;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+#sidebar_content div {
+  background-color: #ffffdd;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+#site_footer {
+  background-color: #FFDDAA;
+  text-align: center;
+  padding: 20px 5px;
+}
+
+#site_footer a {
+  margin: 10px;
+}
+
+
+/*Breakpoint for tablet view*/
+
+@media (min-width: 600px) {
+
+#main_nav {
+  display: flex;
+}
+
+#main_nav a {
+  flex: 1 1 25%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+ #sidebar_content {
+   display: flex;
+   justify-content: space-between;
+   background-color: #ffffdd;
+   margin-bottom: 20px;
+ }
+
+ #sidebar_content div {
+   padding-bottom: 0px;
+ }
+}
